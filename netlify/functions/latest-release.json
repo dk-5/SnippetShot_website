@@ -1,0 +1,11 @@
+{
+  "version": "0.1.1",
+  "notes": "Trial licensing + offline Ed25519 key activation.",
+  "pub_date": "2026-08-08T00:00:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://snippetshot.netlify.app/downloads/SnippetSpot_0.1.1_x64-setup.exe"
+    }
+  }
+}

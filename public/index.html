@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnippetSpot — Search your apps, snippets &amp; vault in milliseconds</title>
+    <meta
+      name="description"
+      content="SnippetSpot is a fast, local-only search bar for your apps, text snippets and vault credentials. Press Alt+Space, type, and paste — everything stays on your machine."
+    />
+    <link rel="icon" type="image/x-icon" href="/icons/app.ico" />
+    <link rel="icon" type="image/png" sizes="128x128" href="/icons/app.png" />
+    <link rel="apple-touch-icon" href="/icons/app.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#0b0b10] text-zinc-200 antialiased">
+    <nav class="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
+      <a href="#top" class="flex items-center gap-2.5">
+        <img src="/icons/app-32.png" alt="SnippetSpot" class="h-7 w-7" />
+        <span class="font-semibold text-white">SnippetSpot</span>
+      </a>
+      <div class="hidden gap-6 text-sm text-zinc-400 sm:flex">
+        <a href="#features" class="hover:text-white">Features</a>
+        <a href="#download" class="hover:text-white">Download</a>
+        <a href="#faq" class="hover:text-white">FAQ</a>
+      </div>
+      <a
+        href="#download"
+        class="rounded-lg bg-[#7c7cf0] px-4 py-1.5 text-sm font-medium text-white hover:opacity-90"
+      >
+        Download
+      </a>
+    </nav>
+
+    <header id="top" class="mx-auto max-w-4xl px-6 pb-16 pt-14 text-center sm:pt-20">
+      <span
+        class="inline-block rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-400"
+      >
+        v0.1.1 · Windows · 100% offline
+      </span>
+      <h1 class="mt-6 text-4xl font-bold tracking-tight text-white sm:text-6xl">
+        Your apps, snippets &amp; vault.
+        <span class="text-[#7c7cf0]">One search.</span>
+      </h1>
+      <p class="mx-auto mt-5 max-w-2xl text-lg text-zinc-400">
+        Press <kbd class="rounded bg-white/10 px-1.5 py-0.5 text-sm text-white">Alt+Space</kbd>,
+        start typing, and SnippetSpot finds apps, snippets, vault credentials and
+        clipboard history in milliseconds — then pastes the result with a single
+        keystroke. Fully local.
+      </p>
+      <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <a
+          href="#download"
+          class="rounded-lg bg-[#7c7cf0] px-6 py-3 text-base font-semibold text-white hover:opacity-90"
+        >
+          Download for Windows
+        </a>
+        <a
+          href="#features"
+          class="rounded-lg border border-white/10 bg-white/5 px-6 py-3 text-base font-medium text-zinc-200 hover:bg-white/10"
+        >
+          See features
+        </a>
+      </div>
+      <p class="mt-4 text-sm text-zinc-500">
+        Free 14-day trial. Activate with a license key to keep using it.
+      </p>
+
+      <div
+        class="mx-auto mt-12 max-w-md rounded-2xl border border-white/10 bg-[#121218] p-4 text-left shadow-2xl"
+      >
+        <div
+          class="flex items-center gap-2 rounded-lg border border-white/10 bg-black/40 px-3 py-2"
+        >
+          <svg class="h-4 w-4 text-zinc-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" d="m21 21-4.3-4.3M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+          </svg>
+          <span class="text-sm text-zinc-400">git</span>
+          <span class="ml-auto text-xs text-zinc-600">⌘ of 4 ms</span>
+        </div>
+        <div class="mt-2 space-y-1 text-sm">
+          <div class="flex items-center gap-2 rounded-lg px-2 py-1.5 bg-[#7c7cf0]/10">
+            <img src="/icons/app-32.png" alt="" class="h-4 w-4" />
+            <span>GitHub — personal access token</span>
+            <span class="ml-auto rounded bg-white/10 px-1.5 py-0.5 text-[11px] text-[#7c7cf0]">vault</span>
+          </div>
+          <div class="flex items-center gap-2 px-2 py-1.5">
+            <span class="text-base leading-none">📄</span>
+            <span>Git workflow cheat sheet</span>
+            <span class="ml-auto rounded bg-white/10 px-1.5 py-0.5 text-[11px] text-zinc-400">snippet</span>
+          </div>
+          <div class="flex items-center gap-2 px-2 py-1.5">
+            <span class="text-base leading-none">🖥️</span>
+            <span>GitHub Desktop</span>
+            <span class="ml-auto rounded bg-white/10 px-1.5 py-0.5 text-[11px] text-zinc-400">app</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="features" class="mx-auto max-w-5xl px-6 py-12">
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div
+          class="rounded-xl border border-white/10 bg-[#121218] p-6 hover:border-[#7c7cf0]/50"
+        >
+          <div class="text-2xl">⚡</div>
+          <h3 class="mt-3 font-semibold text-white">Instant unified search</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            One box for apps, snippets, vault credentials and clipboard history —
+            uFuzzy-matched with favorites, recency and usage ranking in
+            milliseconds.
+          </p>
+        </div>
+        <div
+          class="rounded-xl border border-white/10 bg-[#121218] p-6 hover:border-[#7c7cf0]/50"
+        >
+          <div class="text-2xl">🔒</div>
+          <h3 class="mt-3 font-semibold text-white">Secure vault</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            Credentials and API keys encrypted with Windows DPAPI — paste a
+            username or secret without ever storing it in plaintext.
+          </p>
+        </div>
+        <div
+          class="rounded-xl border border-white/10 bg-[#121218] p-6 hover:border-[#7c7cf0]/50"
+        >
+          <div class="text-2xl">📋</div>
+          <h3 class="mt-3 font-semibold text-white">Clipboard history</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            Re-paste anything you copied, with secrets and app writes filtered
+            out.
+          </p>
+        </div>
+        <div
+          class="rounded-xl border border-white/10 bg-[#121218] p-6 hover:border-[#7c7cf0]/50"
+        >
+          <div class="text-2xl">💾</div>
+          <h3 class="mt-3 font-semibold text-white">Automatic backups</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            Timestamped backups of your data on every launch, restorable in one
+            click.
+          </p>
+        </div>
+        <div
+          class="rounded-xl border border-white/10 bg-[#121218] p-6 hover:border-[#7c7cf0]/50"
+        >
+          <div class="text-2xl">🔄</div>
+          <h3 class="mt-3 font-semibold text-white">Import &amp; export</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            Move snippets in and out as JSON, CSV or Markdown with smart merge
+            policies.
+          </p>
+        </div>
+        <div
+          class="rounded-xl border border-white/10 bg-[#121218] p-6 hover:border-[#7c7cf0]/50"
+        >
+          <div class="text-2xl">🌐</div>
+          <h3 class="mt-3 font-semibold text-white">No cloud, no telemetry</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            SQLite + JSON on your disk. Nothing is uploaded, no account needed.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="mt-8 flex flex-col items-center justify-center gap-4 rounded-xl border border-white/10 bg-[#121218] px-6 py-6 text-center sm:flex-row sm:gap-10"
+      >
+        <div>
+          <div class="text-3xl font-bold text-white">&lt; 50 ms</div>
+          <div class="text-sm text-zinc-500">search on 10,000+ snippets</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-white">~ 100 ms</div>
+          <div class="text-sm text-zinc-500">hotkey to first results</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-white">0 ms</div>
+          <div class="text-sm text-zinc-500">round-trips — fully offline</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="mx-auto max-w-3xl px-6 py-12">
+      <div
+        class="rounded-2xl border border-white/10 bg-[#121218] p-8 text-center"
+      >
+        <img src="/icons/app.png" alt="" class="mx-auto h-16 w-16" />
+        <h2 class="mt-4 text-2xl font-bold text-white">Download SnippetSpot</h2>
+        <p class="mt-2 text-sm text-zinc-400">
+          Windows 10/11, x64 · NSIS installer · version 0.1.1
+        </p>
+        <a
+          href="/downloads/SnippetSpot_0.1.1_x64-setup.exe"
+          class="mt-6 inline-block rounded-lg bg-[#7c7cf0] px-8 py-3 text-base font-semibold text-white hover:opacity-90"
+        >
+          Download installer
+        </a>
+        <p class="mt-3 text-xs text-zinc-500">
+          Unsigned build — Windows SmartScreen may show a warning; choose
+          “More info → Run anyway”.
+        </p>
+        <p class="mt-5 text-sm text-zinc-500">
+          Have a license key? After installing, open the manager → Settings →
+          License and paste it in.
+        </p>
+      </div>
+    </section>
+
+    <section id="faq" class="mx-auto max-w-3xl px-6 py-12">
+      <h2 class="text-center text-2xl font-bold text-white">FAQ</h2>
+      <div class="mt-6 space-y-4">
+        <div class="rounded-xl border border-white/10 bg-[#121218] p-5">
+          <h3 class="font-semibold text-white">Is it really free to try?</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            Yes — every install gets a 14-day trial of the full app with no
+            feature restrictions. After it ends you activate with a license
+            key.
+          </p>
+        </div>
+        <div class="rounded-xl border border-white/10 bg-[#121218] p-5">
+          <h3 class="font-semibold text-white">Do you collect my data?</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            No. Snippets, vault secrets and clipboard history never leave your
+            machine. There is no account and no telemetry.
+          </p>
+        </div>
+        <div class="rounded-xl border border-white/10 bg-[#121218] p-5">
+          <h3 class="font-semibold text-white">What can I search?</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            Apps, text snippets, vault credentials and clipboard history — all
+            from the same box. Results appear while you type.
+          </p>
+        </div>
+        <div class="rounded-xl border border-white/10 bg-[#121218] p-5">
+          <h3 class="font-semibold text-white">How does activation work?</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            License keys are cryptographically signed and verified entirely
+            offline on your device — no server lookup, works without an
+            internet connection.
+          </p>
+        </div>
+        <div class="rounded-xl border border-white/10 bg-[#121218] p-5">
+          <h3 class="font-semibold text-white">What hotkeys does it use?</h3>
+          <p class="mt-1.5 text-sm text-zinc-400">
+            Alt+Space by default to open the search bar (configurable), Ctrl+Shift+H
+            for clipboard history, Ctrl+N to create a snippet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-t border-white/5 py-8 text-center text-sm text-zinc-500">
+      © 2026 SnippetSpot · Built for Windows · Fast, local search.
+    </footer>
+  </body>
+</html>
