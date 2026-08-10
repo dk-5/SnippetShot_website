@@ -196,10 +196,21 @@
         >
           Download installer
         </a>
-        <p class="mt-3 text-xs text-zinc-500">
-          Unsigned build — Windows SmartScreen may show a warning; choose
-          “More info → Run anyway”.
-        </p>
+        <div
+          class="mt-5 rounded-xl border border-amber-400/20 bg-amber-400/5 p-4 text-left text-xs leading-relaxed text-amber-200/80"
+        >
+          <p class="font-semibold text-amber-200">Heads up before you install</p>
+          <p class="mt-1">
+            This build is not yet code-signed, so your browser may flag the
+            download as suspicious, and Windows will show
+            <span class="text-amber-100">“Unknown publisher”</span> when you run
+            it. This is expected and the file is safe to run.
+          </p>
+          <p class="mt-1">
+            If Windows SmartScreen appears, click
+            <span class="text-amber-100">More info → Run anyway</span>.
+          </p>
+        </div>
         <p class="mt-5 text-sm text-zinc-500">
           Have a license key? After installing, open the manager → Settings →
           License and paste it in.
