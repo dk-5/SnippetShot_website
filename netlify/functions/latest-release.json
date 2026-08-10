@@ -1,11 +1,11 @@
 {
-  "version": "0.1.3",
-  "notes": "Trial licensing + offline Ed25519 key activation.",
+  "version": "0.1.4",
+  "notes": "Tiered licensing: full licenses and 14-day renewals.",
   "pub_date": "2026-08-10T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURE5pTEt4TFJvTjU1RzZ6cU1RRmdwU3JXRmo2MlpqcE1BTXlhM3oreU44OWpOa2hzd25id2dNQ2J6Q0svT0VDcUtEakpJbjZNZTkyaE4vOTU4bGd5OXgxakJ4MkNzTHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzQ5NTAyCWZpbGU6U25pcHBldFNwb3RfMC4xLjNfeDY0LXNldHVwLmV4ZQpDV0hYOVRXdVkvdERVb1hzenU3TU1HSmtBY1QxK0QvdEN5cDFHcGpUQ3JZbm94ODhOeGFjenh5SUNweGZFWE9YVDdjWGgxTE80eTBPS3VvQUdWYW5CQT09Cg==",
-      "url": "https://snippetspot.netlify.app/downloads/SnippetSpot_0.1.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURE5pTEt4TFJvTjd1SFBPS0RNOHZQY0pHRFdHSjZRazd4aEFNbmh3Ymg0NlBrNy9NVS8raElQbWNpSWJqalpXUEgzZ29UMXo5Nnk0L2NRUkJpYy9aS3JkV1prek5wTVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzUzMzU1CWZpbGU6U25pcHBldFNwb3RfMC4xLjRfeDY0LXNldHVwLmV4ZQpmOHZpczVkaWl0aUtXTmU2Nm5SM2V6Wkp1MkYyS2NNL0tVdWx2RTNQcHltV0ZZc0tOU081aGcrVllxK3kwZk1taUkyZmY0a1pIbko0MThmQ0VYZlhCdz09Cg==",
+      "url": "https://snippetspot.netlify.app/downloads/SnippetSpot_0.1.4_x64-setup.exe"
     }
   }
 }
